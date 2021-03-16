@@ -26,7 +26,7 @@ namespace TaskAdmin.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=.\\;Database=TaskAdmin;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=tcp:bolsaempleodbserver.database.windows.net,1433;Initial Catalog=TaskAdminContext;Persist Security Info=False;User ID=wilmanc;Password=Myfirst@02;");
             }
         }
 

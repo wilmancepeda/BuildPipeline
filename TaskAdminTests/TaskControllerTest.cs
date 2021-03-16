@@ -6,11 +6,11 @@ using System.Linq;
 
 namespace TaskAdminTests
 {
-    public class UnitTest1
+    public class TaskControllerTest
     {
         private readonly TaskAdminContext _db = new TaskAdminContext();
 
-
+        
         [Fact]
         public void GetTask_ShouldBeTheSame()
         {

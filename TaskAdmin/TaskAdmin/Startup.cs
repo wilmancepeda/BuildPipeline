@@ -30,7 +30,7 @@ namespace TaskAdmin
 
             services.AddDbContext<TaskAdminContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString("default"));
+                options.UseSqlServer(Configuration.GetConnectionString("TaskContext"));
             });
         }
 
